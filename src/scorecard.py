@@ -42,8 +42,6 @@ class Scorecard:
                                        no_of_four_per_player, no_of_six_per_player, ball_faced_per_player, total_score,
                                        team1_scored, team2_win, team, all_out):
         for runs in over:
-            print("Striker", striker)
-            print("Non striker", non_striker)
             if runs.isdigit():
                 runs = int(runs)
                 total_score += runs
